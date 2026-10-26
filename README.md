@@ -7,7 +7,6 @@ Aplicación sencilla de registro e inicio de sesión con Express y bcryptjs. Los
 - Node.js 18 o superior
 - npm
 - Navegador web
-- Opcional: Nginx y Burp Suite Community para las actividades de laboratorio
 
 ## Ejecutar localmente
 
@@ -72,17 +71,8 @@ Este ejemplo presupone que Node.js y Nginx se ejecutan en el mismo servidor. Si 
 
 Para que ambos nodos de Keepalived sirvan la aplicación, Node.js y Nginx deben estar instalados y funcionando en ambos. Como el almacenamiento está en memoria, los registros creados en un nodo no aparecerán automáticamente en el otro.
 
-## Actividades sugeridas para Burp Suite
 
-Úsese únicamente en la red de laboratorio y sobre esta aplicación.
-
-- Interceptar las solicitudes `POST /api/registro` y `POST /api/login`.
-- Observar los campos JSON enviados y las respuestas HTTP.
-- Probar campos vacíos, usuario duplicado, contraseñas no coincidentes y caracteres especiales.
-- Revisar códigos de estado y mensajes de error.
-- Comprobar que las respuestas no exponen el hash de bcrypt.
-- Explicar por qué SQLMap no debería detectar inyección SQL en esta aplicación: no hay consultas SQL ni base de datos.
 
 ## Limitaciones y uso
 
-Este proyecto es exclusivamente didáctico. No incorpora sesiones autenticadas, limitación de intentos, recuperación de contraseñas, persistencia ni controles suficientes para producción. No utilizar contraseñas reales ni desplegarlo en Internet.
+Este proyecto es exclusivamente para implementar en la evaluación de primer parcial de la materia de Ingeniería de Seguridad del Software - ESPE 2026.
