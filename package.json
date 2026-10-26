@@ -1,7 +1,7 @@
 {
   "name": "login-bcrypt-lab",
   "version": "1.0.0",
-  "description": "Aplicación didáctica de registro e inicio de sesión con bcryptjs y almacenamiento temporal en memoria",
+  "description": "Examen 1P - registro e inicio de sesión con bcryptjs y almacenamiento temporal en memoria",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
