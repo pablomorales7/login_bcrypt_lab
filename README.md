@@ -29,7 +29,7 @@ Los usuarios se almacenan temporalmente en un vector (arreglo en memoria). No se
 ## 3. Verificar AlmaLinux y Nginx
 
 Instalar Nginx y verificar su Status
-```
+
 
 ## 4. Instalar Node.js y npm
 
