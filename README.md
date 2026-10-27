@@ -111,7 +111,7 @@ public/
 Dentro del directorio del proyecto, ejecutar:
 
 ```bash
-npm install
+yum install npm
 ```
 
 Este comando instala las dependencias definidas en `package.json`, incluyendo Express y bcryptjs.
