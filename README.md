@@ -80,7 +80,7 @@ git --version
 Ejecutar el siguiente comando, reemplazando la URL por la dirección real del repositorio:
 
 ```bash
-sudo git clone https://github.com/USUARIO/login-bcrypt-lab.git /opt/login_bcrypt_lab
+sudo git clone https://github.com/pablomorales7/login_bcrypt_lab.git /opt/login_bcrypt_lab
 ```
 
 Ingresar al directorio del proyecto:
