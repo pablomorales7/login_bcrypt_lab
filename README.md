@@ -111,7 +111,8 @@ public/
 Dentro del directorio del proyecto, ejecutar:
 
 ```bash
-yum install npm
+cd /opt/login_bcrypt_lab
+npm install
 ```
 
 Este comando instala las dependencias definidas en `package.json`, incluyendo Express y bcryptjs.
